@@ -13,5 +13,4 @@ numpy
 requests
 typing-extensions
 groq
-plotly
-plotly
+plotly==5.18.0
