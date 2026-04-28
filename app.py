@@ -44,7 +44,6 @@
 #             st.caption(signal["summary"])
 
 
-
 import time
 import streamlit as st
 import plotly.graph_objects as go
@@ -90,7 +89,7 @@ st.markdown("""
 
     /* hide streamlit chrome */
     #MainMenu, footer, header { visibility: hidden; }
-    .block-container { padding: 0 !important; max-width: 100% !important; }
+    .block-container { padding: 2rem 3rem !important; max-width: 100% !important; }
 
     h1,h2,h3,h4,h5,h6 { color: var(--text) !important; font-weight: 600 !important; }
     p, label { color: var(--muted) !important; }
